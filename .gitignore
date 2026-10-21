@@ -1,0 +1,17 @@
+# Ignore new files by default, following the reference repository.
+*
+
+# Keep directories visible for allowlisted files.
+!*/
+
+# Track source, documentation, and these rules.
+!*.py
+!*.md
+!.gitignore
+
+# Exclude environments even when they contain allowed file types.
+__pycache__/
+.venv/
+venv/
+env/
+.env/
